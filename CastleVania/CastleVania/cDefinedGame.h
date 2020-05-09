@@ -29,10 +29,10 @@
 #define OR_PLUS		1				///Hướng về chiều dương
 
 // Collision direction
-#define CDIR_LEFT		1.0f
-#define CDIR_RIGHT		-1.0f
-#define CDIR_TOP		1.0f
-#define	CDIR_BOTTOM		-1.0f
+#define DIR_LEFT		1.0f
+#define DIR_RIGHT		-1.0f
+#define DIR_TOP		1.0f
+#define	DIR_BOTTOM		-1.0f
 
 // IS OBJECT DEPEND ON CAMERA???	(Render Object phụ thuộc vào camera hay không)
 #define DEPEND_ON_CAMERA	1		//Phụ thuộc vào camera (GameObject, Tilemap)

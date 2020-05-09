@@ -74,9 +74,9 @@ public:
 
 	bool active;	//Kích hoạt để hiển thị lên màn hình
 
-	int idItem;		// Loại Item mà object này mang (nếu không có là -1)
+	int itemStored;		// Loại Item mà object này mang (nếu không có là -1)
 
-	bool isDroppedItem = false;		//Đã rơi item chưa?? chỉ dùng cho một số object nhất định (true: nếu đã rơi item rồi, false: nếu chưa rớt item)
+	bool isCreatedItem = false;		//Kiểm tra object này có tạo item chưa??? 
 
 
 	CGameObject();
@@ -95,13 +95,13 @@ public:
 	void SetOrientation(int orientation) { this->orientation = orientation; }	
 
 	//Set ID Item mà object này chứa đựng
-	void SetIDItem(int id) { this->idItem = id; }	
+	void SetIDItem(int itemStored) { this->itemStored = itemStored; }
 
 	//Set active kích hoạt 
 	void Active(bool active) { this->active = active; }	
 
-	//Set trạng thái rớt Item (true: nếu đã rơi item rồi, false: nếu chưa rớt item)
-	void SetIsDroppedItem(bool x) { this->isDroppedItem = x; }	
+	//Set trạng thái đã tạo item chưa????
+	void setCreatedItem(bool x) { this->isCreatedItem = x; }	
 
 
 
@@ -118,8 +118,7 @@ public:
 	//Lấy hướng (OR_MINUS: quay về trục âm, OR_PLUS: quay về trục dương)
 	int GetOrientation() { return this->orientation; }	
 
-	//Lấy trạng thái đã rớt Item (true: nếu đã rơi item rồi, false: nếu chưa rớt item)
-	bool IsDroppedItem() { return this->isDroppedItem; }
+	//Lấy trạng thái object này đã tạo item chưa???
 
 	//Lấy trạng thái kích hoạt
 	bool isActive() { return this->active; }	
