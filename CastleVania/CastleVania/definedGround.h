@@ -1,0 +1,19 @@
+#pragma once
+
+
+// TEXTURE ID
+#define ID_TEX_GROUND				8
+
+
+//STATE GROUND ID
+#define GROUND_1		0
+#define GROUND_2		1
+
+
+//OBJECT TYPE ID
+#define OBJECT_TYPE_GROUND	8
+
+
+//WIDTH & HEIGHT
+#define GROUND_BBOX_WIDTH			32
+#define GROUND_BBOX_HEIGHT			32

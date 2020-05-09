@@ -1,0 +1,6 @@
+[SETTINGS]
+start	1
+#sceneID listObject			MapTexture			MapData				CameraPosX CameraPosY	MapWidth	MapHeight	simonPosX	simonPosY
+[SCENES]
+1	Objects/Scene1_Objects.txt	Scenes/Scene1/Scene1_Tilemap.png	Scenes/Scene1/Scene1_Tilemap_Data.txt	0.0	0.0	1536	384	20.0	255.0
+2	Objects/Scene2_Objects.txt	Scenes/Scene2/Scene2_Tilemap.png	Scenes/Scene2/Scene2_Tilemap_Data.txt	0.0	0.0	512	384	390.0	0.0

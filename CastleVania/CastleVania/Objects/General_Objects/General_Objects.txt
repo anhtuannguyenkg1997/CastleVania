@@ -1,0 +1,155 @@
+[TEXTURES]
+-100	textures\bbox.png	NULL	NULL	NULL
+0	textures\Simon.png	NULL	NULL	NULL
+1	textures\MorningStar.png	NULL	NULL	NULL
+2	textures\Items.png	NULL	NULL	NULL
+5	textures\Disappear.png	NULL	NULL	NULL
+9	textures\SubWeapon.png	NULL	NULL	NULL
+
+
+
+# id	left	top	right	bottom	texture_id
+[SPRITES]
+# SIMON
+simonStanding	0	0	60	60	0
+simonWalking0	0	0	60	60	0
+simonWalking1	0	61	60	123	0	
+simonWalking2	0	124	60	184	0
+simonWalking3	0	185	60	246	0
+simonSitting	0	665	60	725	0
+simonJumping	0	665	60	725	0
+simonSittingAndWhopping0	0	476	60	536	0
+simonSittingAndWhopping1	0	539	60	599	0
+simonSittingAndWhopping2	0	602	60	662	0
+simonStandingAndWhopping0	0	247	60	307	0
+simonStandingAndWhopping1	0	309	60	369	0
+simonStandingAndWhopping2	0	370	60	428	0
+simonUpgradeMS0	0	734	60	793	0
+simonUpgradeMS1	0	801	60	860	0
+simonUpgradeMS2	0	868	60	927	0
+simonPushed	0	933	60	993	0
+
+# MORNING_STAR
+level1MorningStar0	0	0	116	63	1
+level1MorningStar1	0	63	116	122	1
+level1MorningStar2	0	123	116	181	1
+level2MorningStar0	0	198	116	261	1
+level2MorningStar1	0	262	116	320	1
+level2MorningStar2	0	320	116	379	1
+level3MorningStar0	0	426	152	488	1
+level3MorningStar1	0	489	152	548	1
+level3MorningStar2	0	549	152	606	1
+
+#DISAPEAR EFFECT
+disapear0	0	0	32	60	5
+disapear1	32	0	64	60	5
+disapear2	64	0	96	60	5
+
+#ITEMS
+stopWatchItem	775	21	805	53	2
+smallHeartItem	41	37	57	53	2
+bigheartItem	63	33	87	53	2
+redmoneybagItem	93	23	123	53	2
+whitemoneybagItem	165	23	195	53	2
+purplemoneybagItem	129	23	159	53	2
+morningStarItem	3	21	35	53	2
+daggerItem	627	35	659	53	2
+rosaryItem	201	21	233	53	2
+axeItem	665	25	695	53	2
+invisibilityPotionItem	242	21	268	53	2
+chestItem0	479	29	511	53	2
+chestItem1	517	29	549	53	2
+boomerangItem	739	25	769	53	2
+holywaterItem	701	21	733	53	2
+porkchopItem	441	27	473	53	2
+doubleshotItem	277	25	305	53	2
+tripleshotItem	359	25	387	53	2
+diademItem0	555	21	585	53	2
+diademItem1	591	21	621	53	2
+
+#SUBWEAPON
+weapon_boomerang_1	0	158	28	186	9
+weapon_boomerang_2	0	188	28	216	9
+weapon_boomerang_3	0	218	28	244	9
+weapon_axe_1	0	20	30	48	9
+weapon_axe_2	0	50	30	78	9
+weapon_axe_3	0	80	30	108	9
+weapon_axe_4	0	110	30	138	9
+weapon_dagger	0	0	32	18	9
+weapon_stopwatch	0	246	30	278	9
+weapon_holywater	0	140	16	156	9
+weapon_holywatershattered_1	0	280	12	304	9
+weapon_holywatershattered_2	0	306	32	332	9
+
+
+
+
+
+# ani_id	sprite1_id	time1	sprite2_id	time2	...
+[ANIMATIONS]
+
+# ==== SIMON=========
+simonStandingAni	simonStanding	100
+simonWalkingAni	simonWalking0	100	simonWalking1	100	simonWalking2	100	simonWalking3	100
+simonSittingAni	simonSitting	100
+simonJumpingAni	simonJumping	100
+simonSittingAngWhoppingAni	simonSittingAndWhopping0	100	simonSittingAndWhopping1	100	simonSittingAndWhopping2	100
+simonStandingAndWhoppingAni	simonStandingAndWhopping0	100	simonStandingAndWhopping1	100	simonStandingAndWhopping2	100
+simonUpgradeMSAni	simonUpgradeMS0	100	simonUpgradeMS1	100	simonUpgradeMS2	100
+simonPushedAni	simonPushed	100
+# ==== MORNINGSTAR=========
+level1MorningStarAni	level1MorningStar0	100	level1MorningStar1	100	level1MorningStar2	100
+level2MorningStarAni	level2MorningStar0	100	level2MorningStar1	100	level2MorningStar2	100
+level3MorningStarAni	level3MorningStar0	100	level3MorningStar1	100	level3MorningStar2	100
+# ==== EFFECT=========
+disapearAni	disapear0	100	disapear1	100	disapear2	100
+# ==== ITEMS=========
+morningStarItemAni	morningStarItem	100
+smallHeartItemAni	smallHeartItem	100
+bigheartItemAni	bigheartItem	100
+redmoneybagItemAni	redmoneybagItem	100
+purplemoneybagItemAni	purplemoneybagItem	100
+whitemoneybagItemAni	whitemoneybagItem	100
+rosaryItemAni	rosaryItem	100
+invisibilityPotionItemAni	invisibilityPotionItem	100
+porkchopItemAni	porkchopItem	100
+doubleshotItemAni	doubleshotItem	100
+tripleshotItemAni	tripleshotItem	100
+moneyBagItemAni	redmoneybagItem	50	purplemoneybagItem	50	whitemoneybagItem	50
+daggerItemAni	daggerItem	100
+axeItemAni	axeItem	100
+holywaterItemAni	holywaterItem	100
+boomerangItemAni	boomerangItem	100
+stopWatchItemAni	stopWatchItem	100
+chestItemAni	chestItem0	50	chestItem1	50
+diademItemAni	diademItem0	50	diademItem1	50
+# ==== SUBWEAPON=========
+weapon_stopwatch_ani	weapon_stopwatch	100
+weapon_dagger_ani	weapon_dagger	100
+weapon_axe_ani	weapon_axe_1	100	weapon_axe_2	100	weapon_axe_3	100	weapon_axe_4	100
+weapon_holywater_ani	weapon_holywater	100
+weapon_holywatershattered_ani	weapon_holywatershattered_1	100	weapon_holywatershattered_2	100
+weapon_boomerang_ani	weapon_boomerang_1	100	weapon_boomerang_2	100	weapon_boomerang_3	100
+
+
+
+
+
+# id	ani1	ani2	ani3				
+[ANIMATION_SETS]
+# SIMON
+0	simonStandingAni	simonWalkingAni	simonSittingAni	simonJumpingAni	simonSittingAngWhoppingAni	simonStandingAndWhoppingAni	simonUpgradeMSAni	simonPushedAni
+# MORNING STAR
+1	level1MorningStarAni	level2MorningStarAni	level3MorningStarAni
+#ITEMS
+2	morningStarItemAni	smallHeartItemAni	bigheartItemAni	redmoneybagItemAni	purplemoneybagItemAni	whitemoneybagItemAni	rosaryItemAni	invisibilityPotionItemAni	doubleshotItemAni	tripleshotItemAni	porkchopItemAni	moneyBagItemAni	chestItemAni	diademItemAni	daggerItemAni	axeItemAni	holywaterItemAni	boomerangItemAni	stopWatchItemAni
+#SUBWEAPON
+9	weapon_dagger_ani	weapon_axe_ani	weapon_holywater_ani	weapon_boomerang_ani	weapon_stopwatch_ani	weapon_holywatershattered_ani
+
+
+[OBJECTS]
+# type	x	y	ani_set_id	state	active	item
+# SIMON
+0	0	0	0	0	1	-1
+# MORNING STAR
+1	0	0	1	0	1	-1

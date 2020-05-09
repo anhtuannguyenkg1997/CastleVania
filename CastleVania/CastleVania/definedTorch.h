@@ -1,0 +1,16 @@
+#pragma once
+//OBJECT TYPE ID
+#define OBJECT_TYPE_TORCH	4
+
+
+//TORCH STATE ID
+#define TORCH_ACTIVE		0
+#define TORCH_DESTROYED	1
+
+
+#define TORCH 0
+
+
+//	WIDTH & HEIGHT
+#define TORCH_ACTIVE_WIDTH			32
+#define TORCH_ACTIVE_HEIGHT			64
