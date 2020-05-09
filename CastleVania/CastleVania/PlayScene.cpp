@@ -294,7 +294,7 @@ void PlayScene::Update(DWORD dt)
 	//3.  Object bị tiêu diệt phải chưa bị rớt Item ra (isDroppedItem = false)
 	for (UINT i = 0; i < listObjects.size(); i++)
 	{
-		if (!listObjects[i]->isActive() && listObjects[i]->idItem != -1 && !listObjects[i]->isDroppedItem) {
+		if (!listObjects[i]->isActive() && listObjects[i]->itemStored != -1 && !listObjects[i]->isCreatedItem) {
 
 			//Tạo một Item mới
 			Item* item = new Item(listObjects[i]);

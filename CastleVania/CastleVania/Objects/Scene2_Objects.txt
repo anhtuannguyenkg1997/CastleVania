@@ -60,12 +60,12 @@ brick1Ani	brick1	100
 [OBJECTS]
 # type	x	y	ani_set_id	state	active	item
 # SOLIDER
-6	250.0	95.0	6	0	1	4
+6	250.0	95.0	6	0	1	8
 
 
 # CANDLE
 7	407.0	234.0	7	0	1	11
-7	152.0	230.0	7	0	1	11
+7	152.0	230.0	7	0	1	9
 7	280.0	43.0	7	0	1	11
 
 # BRICK TYPE 2

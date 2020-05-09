@@ -56,7 +56,7 @@ void Solider::SetState(int state)
 	case SOLIDER_WALKING:
 		if (orientation == OR_PLUS) vx = SOLIDER_WALKING_SPEED;	//Solider đang quay theo chiều dương
 		else vx = -SOLIDER_WALKING_SPEED;	//Solider đang quay theo chiều âm
-		isDroppedItem = false;	//Có khả năng tạo ra item khi bị tiêu diệt
+		isCreatedItem = false;	//Có khả năng tạo ra item khi bị tiêu diệt
 		break;
 	case SOLIDER_DESTROYED:
 		vx = 0;

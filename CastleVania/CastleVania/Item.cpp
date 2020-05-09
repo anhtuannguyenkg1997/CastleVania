@@ -11,29 +11,30 @@ Item::Item(LPGAMEOBJECT object) : CGameObject()
 
 	float x=0, y=0;
 
-	if (object->IsDroppedItem() == true)
+	//Nếu object đã tạo item rồi thì không tạo nữa
+	if (object->isCreatedItem)
 		return;
 
 
 	if (dynamic_cast<Torch*>(object) && object->GetState() == TORCH_DESTROYED)
 	{
-		idItem = object->idItem;
+		idItem = object->itemStored;
 		object->GetPosition(x, y);
-		object->SetIsDroppedItem(true);
+		object->setCreatedItem(true); //Cho phép tạo item
 	}
 
 	if (dynamic_cast<Candle*>(object) && object->GetState() == CANDLE_DESTROYED)
 	{
-		idItem = object->idItem;
+		idItem = object->itemStored;
 		object->GetPosition(x, y);
-		object->SetIsDroppedItem(true);
+		object->setCreatedItem(true);//Cho phép tạo item
 	}
 
 	if (dynamic_cast<Solider*>(object) && object->GetState() == SOLIDER_DESTROYED)
 	{
-		idItem = object->idItem;
+		idItem = object->itemStored;
 		object->GetPosition(x, y);
-		object->SetIsDroppedItem(true);
+		object->setCreatedItem(true);//Cho phép tạo item
 	}
 
 
