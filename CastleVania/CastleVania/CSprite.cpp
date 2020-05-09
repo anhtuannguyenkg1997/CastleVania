@@ -15,12 +15,12 @@ CSprite::CSprite(string id, int left, int top, int right, int bottom, LPDIRECT3D
 
 
 //Vẽ sprite lên màn hình
-void CSprite::Draw(int dependOnCam, int direction, float x, float y, int alpha)
+void CSprite::Draw(int isCameraMoving, int direction, float x, float y, int alpha)
 {
 	//Lấy thể hiện duy nhất của CGame (để vẽ)
 	CGame* game = CGame::GetInstance();
 
 	//Gọi đến hàm vẽ của lớp CGame
-	game->Draw(dependOnCam, direction, x, y, texture, left, top, right, bottom, alpha);
+	game->Draw(isCameraMoving, direction, x, y, texture, left, top, right, bottom, alpha);
 }
 

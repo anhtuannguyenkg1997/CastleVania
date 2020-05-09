@@ -55,11 +55,11 @@ public:
 
 
 	//Render animation
-	void Render(int dependOnCam, int nx, float x, float y, int alpha = 255);
+	void Render(int accordingCam, int nx, float x, float y, int alpha = 255);
 
 
 	// hàm dùng riêng để render MorningStar
-	void RenderMorningStar(int idSimonFrame, int nx, float x, float y, int alpha = 255); 
+	void RenderByID(int currentID, int nx, float x, float y, int alpha = 255); 
 };
 
 typedef CAnimation* LPANIMATION;

@@ -7,8 +7,8 @@ CGameObject::CGameObject()
 	vx = vy = 0;
 	orientation = OR_PLUS;					// mặc định object luôn quay qua phải
 	active = true;
-	itemStored = -1;
-	isCreatedItem = false;					
+	idItem = -1;
+	isDroppedItem = false;
 }
 
 

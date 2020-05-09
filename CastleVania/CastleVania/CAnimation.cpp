@@ -32,7 +32,7 @@ void CAnimation::Add(string spriteID, DWORD time)
 
 
 //Hàm render cho các object thông thường
-void CAnimation::Render(int dependOnCam, int nx, float x, float y, int alpha)
+void CAnimation::Render(int accordingCam, int nx, float x, float y, int alpha)
 {
 	//Lấy thời gian hiện tại
 	DWORD now = GetTickCount();
@@ -76,14 +76,14 @@ void CAnimation::Render(int dependOnCam, int nx, float x, float y, int alpha)
 	}
 
 	//Render frame hiện tại
-	frames[currentFrame]->GetSprite()->Draw(dependOnCam, nx, x, y, alpha);
+	frames[currentFrame]->GetSprite()->Draw(accordingCam, nx, x, y, alpha);
 }
 
 
 ///Hàm vẽ đặc biệt dùng để render Morning star
 //CurrentID là ID của Frame Simon truyền vào (lúc đánh: có 3 frame)
 //nx là hướng của MorningStar: 1 là từ trái qua phải, -1 là từ phải qua trái
-void CAnimation::RenderMorningStar(int currentID, int nx, float x, float y, int alpha)
+void CAnimation::RenderByID(int currentID, int nx, float x, float y, int alpha)
 {
 	if (frames.size() == 3) // Frame của morning star level có 3 frames
 	{
