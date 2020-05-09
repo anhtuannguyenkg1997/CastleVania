@@ -136,7 +136,7 @@ void MorningStar::Render(int currentFrameSimon)
 	//Nên ta phải trừ 1 mới lấy đúng animation cần thiết
 	int stateRender = state - 1;
 	if (currentFrameSimon >= 0)
-		animation_set->at(stateRender)->RenderByID(currentFrameSimon, orientation, x, y);
+		animation_set->at(stateRender)->RenderMorningStar(currentFrameSimon, orientation, x, y);
 
 	//Vẽ vùng bao Morning star
 	//RenderBoundingBox();

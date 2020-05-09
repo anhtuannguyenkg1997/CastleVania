@@ -112,12 +112,13 @@ void Simon::Update(DWORD dt, vector<LPGAMEOBJECT> listObjects)
 				{
 
 					//Chạm cạnh trên viên gạch
-					if (e->ny == CDIR_BOTTOM)
+					if (e->ny == DIR_BOTTOM)
 					{
 						vy = 0;
 						standing = true;
 						falling = false;
 					}
+					//Nếu không chạm cạnh trên viên gạch (chạm trái, chạm phải, chạm dưới)
 					else
 						y += dy;
 				}
