@@ -1,0 +1,21 @@
+﻿#pragma once
+
+
+// WINDOWS
+#define WINDOW_CLASS_NAME		L"DirectX"
+#define MAIN_WINDOW_TITLE		L"Castle Vania"
+
+#define SCREEN_WIDTH			527 //527
+#define SCREEN_HEIGHT			500				//Tính cả title bar cao 36px
+
+
+#define BACKGROUND_COLOR				D3DCOLOR_XRGB(0,0,0)
+#define BACKGROUND_CROSS_EFFECT_COLOR	D3DCOLOR_XRGB(188,188,188)
+#define TILEMAP_COLOR_TRANS		NULL
+
+
+
+// DIRECT INPUT
+#define DIRECTINPUT_VERSION		0x0800
+#define KEYBOARD_BUFFER_SIZE	1024
+

@@ -1,0 +1,31 @@
+[SOUND_TRACK]
+1	Sounds/SoundTrack/SoundTrackStage1.wav
+2	Sounds/SoundTrack/SoundTrackStage2.wav
+3	Sounds/SoundTrack/SoundTrackStage2.wav
+4	Sounds/SoundTrack/SoundTrackStage3.wav
+5	Sounds/SoundTrack/SoundTrackStage3.wav
+6	Sounds/SoundTrack/SoundTrackStage1.wav
+7	Sounds/SoundTrack/SoundTrackFightingBoss.wav
+
+
+
+[SOUND_EFFECT]
+10	Sounds/SoundEffect/10-Whopping.wav	0
+11	Sounds/SoundEffect/20-Attacking.wav	0
+12	Sounds/SoundEffect/21-Broken_Brick.wav	0
+13	Sounds/SoundEffect/34-Show_HiddenItem.wav	0
+14	Sounds/SoundEffect/23-Touch_Other_Item.wav	0
+15	Sounds/SoundEffect/24-Touch_Subweapon_Item.wav	0
+16	Sounds/SoundEffect/35-Rosary.wav	0
+17	Sounds/SoundEffect/37-Simon_Pushed.wav	0
+18	Sounds/SoundEffect/26-SW_Stopwatch.wav	1
+19	Sounds/SoundEffect/03-SW_Axe.wav	1
+20	Sounds/SoundEffect/09-SW_Dagger.wav	0
+21	Sounds/SoundEffect/08-SW_Boomerang.wav	1
+22	Sounds/SoundEffect/31-SW_HolyWater.wav	0
+23	Sounds/SoundEffect/27-Invisible_TimeStart.wav	0
+24	Sounds/SoundEffect/28-Invisible_Timeup.wav	0
+25	Sounds/SoundEffect/Finish_Game.wav	0
+26	Sounds/SoundEffect/04-ScoreByTimeRemain.wav	0
+27	Sounds/SoundEffect/06-ScoreBySmallHeart.wav	0
+28	Sounds/SoundEffect/Simon_Dead.wav	0

@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="C_FrameWork">
+      <UniqueIdentifier>{e7bf2033-50c4-49be-a1f5-a919c0ce9fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects">
+      <UniqueIdentifier>{f68282fe-0dde-4490-b499-376071359a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game">
+      <UniqueIdentifier>{0d524580-94c0-43f8-862c-ba62f3d78ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects">
+      <UniqueIdentifier>{f2521f39-2aed-47c1-b609-63764887a658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\Define">
+      <UniqueIdentifier>{9ea452bb-8ad8-4171-b755-88a2b996fc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Animations">
+      <UniqueIdentifier>{34f086af-8d96-4d1e-b195-5b7e2d2998dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Games">
+      <UniqueIdentifier>{88dbe37c-6107-4a54-b74d-a725b665e585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Utilities">
+      <UniqueIdentifier>{119b11cf-4999-4f4a-b90f-e54c2ccbea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Scene">
+      <UniqueIdentifier>{22f64b74-8392-47ee-b1df-95c2170100d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Input">
+      <UniqueIdentifier>{7043b44a-16ab-4c66-be9d-84b9b17cb0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Sprites">
+      <UniqueIdentifier>{38e33d3e-291d-4dd9-b7f5-70087974e6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Textures">
+      <UniqueIdentifier>{109c82e6-0552-4888-b9bc-c2547fd3f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SceneGame">
+      <UniqueIdentifier>{f5450776-3281-4104-abd3-df2a64a25bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SceneGame\Scene">
+      <UniqueIdentifier>{ad14ee54-74e4-4f33-bc1d-3e12692bfff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Items">
+      <UniqueIdentifier>{624944fa-f8a8-4298-a51c-f59eb4583f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Torch">
+      <UniqueIdentifier>{a4009fc7-25a9-4eef-9fdc-20cf874e2df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Brick">
+      <UniqueIdentifier>{a42c54ff-7b5b-4761-a70f-00fc81c70f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SceneGame\SceneManager">
+      <UniqueIdentifier>{c0aad234-5d67-497e-9e29-1fb9402330cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Portal">
+      <UniqueIdentifier>{c69e0b61-b6ca-4760-8ea1-37333e6e27af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\HUD">
+      <UniqueIdentifier>{c784612f-98cd-4dcb-b642-8cc96a98219d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Grid">
+      <UniqueIdentifier>{318c27b6-af5a-453c-b940-b0509e19cb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Camera">
+      <UniqueIdentifier>{9517818d-effc-4a1c-b930-ad3871d17255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\Enemy">
+      <UniqueIdentifier>{30cdf7b3-2e69-4317-9796-6de1429a8d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Candle">
+      <UniqueIdentifier>{983290d9-9504-4eaa-a6bd-8e9919779a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\VampireBat">
+      <UniqueIdentifier>{82260e68-3f18-4914-b498-91bad20d8da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\BlackKnight">
+      <UniqueIdentifier>{8fe718a0-6fe4-46a4-98ad-c9c7d6207c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Stairs">
+      <UniqueIdentifier>{39650c11-1ad0-48b5-aa9c-024ae1a83187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\MovingStair">
+      <UniqueIdentifier>{b0a82a72-7c01-4f89-826e-528dd2cbe785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\Ghost">
+      <UniqueIdentifier>{e0f6ed4c-b437-46fc-bf59-5f6aa78e9f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\HunchBack">
+      <UniqueIdentifier>{7a896009-31e7-457c-96d2-5876eb2823ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\WhiteSkeleton">
+      <UniqueIdentifier>{98817459-d654-40ef-853a-350d83544e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\Raven">
+      <UniqueIdentifier>{2477d2ab-dd94-44e2-9e6e-dab3c7bc34e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Items\ItemBox">
+      <UniqueIdentifier>{11eef95a-8d53-442b-ac9d-c3d69d5ac218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\Items\ItemEffect">
+      <UniqueIdentifier>{76140cad-f62f-456a-8698-c8cfc57b9f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\Zombie">
+      <UniqueIdentifier>{e548fdd6-e2bb-4b8a-90c9-070bc143a20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_DynamicObjects\PhantomBat">
+      <UniqueIdentifier>{acbcfb9d-884a-4d87-91ff-039a8b42e19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Sound">
+      <UniqueIdentifier>{799352e0-0b9a-4de1-b424-6bfc5c46ec3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SceneGame\SceneSound">
+      <UniqueIdentifier>{bcf304ec-f1cf-4b95-8de0-63eab2e20c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SceneGame\SceneInput">
+      <UniqueIdentifier>{c4b17962-b21a-4771-ad89-2d1ccfecca7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CO_StaticObjects\HiddenObject">
+      <UniqueIdentifier>{8d578859-ba61-4792-a0d8-f8dc95ec535c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont">
+      <UniqueIdentifier>{65d0761f-4e92-43f7-b5a8-ceb34b615bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont\Simon">
+      <UniqueIdentifier>{35df6af3-16e0-49b5-8e51-c70010c3a5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont\Weapons">
+      <UniqueIdentifier>{78818db0-c9d3-4344-b5f0-5709abb245c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont\Weapons\MainWeapon">
+      <UniqueIdentifier>{c5670a1b-cc9c-4670-973c-957bba607ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont\Weapons\SubWeapon">
+      <UniqueIdentifier>{c2c41868-ec83-4acd-9ff5-e2cd39facad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_Game\SimonBelmont\Weapons\Effects">
+      <UniqueIdentifier>{15aedeab-9b63-418a-a8d4-2692416b366b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C_FrameWork\Random">
+      <UniqueIdentifier>{141bd30b-7a67-4d2f-99b2-bb36dfd351d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MorningStar.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\MainWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationFrame.cpp">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimations.cpp">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>C_FrameWork\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>C_FrameWork\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebug.cpp">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtils.cpp">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>C_FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMap.cpp">
+      <Filter>C_FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyEventHandler.cpp">
+      <Filter>C_FrameWork\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CScenceKeyHandler.cpp">
+      <Filter>C_FrameWork\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>C_FrameWork\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprites.cpp">
+      <Filter>C_FrameWork\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextures.cpp">
+      <Filter>C_FrameWork\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>CO_StaticObjects\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>CO_StaticObjects\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon.cpp">
+      <Filter>C_Game\SimonBelmont\Simon</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>CO_StaticObjects\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>C_Game\SceneGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFileHelper.cpp">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectCell.cpp">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrid.cpp">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="CCell.cpp">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>C_FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>CO_DynamicObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle.cpp">
+      <Filter>CO_StaticObjects\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>CO_StaticObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CStandardized.cpp">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>C_Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeSubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangSubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="DaggerSubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="HolyWaterSubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWeaponManager.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight.cpp">
+      <Filter>CO_DynamicObjects\BlackKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>CO_StaticObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireBat.cpp">
+      <Filter>CO_DynamicObjects\VampireBat</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatchSubWeapon.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="StairManager.cpp">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>C_Game\SceneGame\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatingStair.cpp">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingStair.cpp">
+      <Filter>CO_DynamicObjects\MovingStair</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySceneKeyForwardAction.cpp">
+      <Filter>C_Game\SceneGame\SceneInput</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScenceKeyHandler.cpp">
+      <Filter>C_Game\SceneGame\SceneInput</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCreater.cpp">
+      <Filter>C_Game\SceneGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>CO_DynamicObjects\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="HunchBack.cpp">
+      <Filter>CO_DynamicObjects\HunchBack</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteSkeleton.cpp">
+      <Filter>CO_DynamicObjects\WhiteSkeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>CO_DynamicObjects\WhiteSkeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven.cpp">
+      <Filter>CO_DynamicObjects\Raven</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BigHeartItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DaggerItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DiademItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleShotItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="HolyWaterItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibilityPotionItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBagItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBagPurpleItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBagRedItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBagWhiteItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MorningStarItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PorkChopItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RosaryItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallHeartItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatchItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="TripleShotItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibilityItemEffect.cpp">
+      <Filter>CO_StaticObjects\Items\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="RosaryItemEffect.cpp">
+      <Filter>CO_StaticObjects\Items\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>CO_DynamicObjects\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomBat.cpp">
+      <Filter>CO_DynamicObjects\PhantomBat</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>C_Game\SceneGame\SceneSound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>C_Game\SceneGame\SceneSound</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenObjectManager.cpp">
+      <Filter>CO_StaticObjects\HiddenObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCrystalItem.cpp">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>C_FrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="DSutil.cpp">
+      <Filter>C_FrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRevival.cpp">
+      <Filter>CO_DynamicObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackingEffect.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackingEffectManager.cpp">
+      <Filter>C_Game\SimonBelmont\Weapons\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="CRandomManager.cpp">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="CRandomGroup.cpp">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="CRandomItem.cpp">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MorningStar.h">
+      <Filter>C_Game\SimonBelmont\Weapons\MainWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationFrame.h">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimations.h">
+      <Filter>C_FrameWork\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>C_FrameWork\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>C_FrameWork\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtils.h">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>C_FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMap.h">
+      <Filter>C_FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScenceKeyHandler.h">
+      <Filter>C_FrameWork\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyEventHandler.h">
+      <Filter>C_FrameWork\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprites.h">
+      <Filter>C_FrameWork\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>C_FrameWork\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>C_FrameWork\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="definedMorningStar.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedSimon.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedItems.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>CO_StaticObjects\Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="definedTorch.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>CO_StaticObjects\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="cDefinedWindow.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="cDefinedGame.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="cDefinedReadFile.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>C_Game\SceneGame\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon.h">
+      <Filter>C_Game\SimonBelmont\Simon</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>CO_StaticObjects\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>C_Game\SceneGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="definedHUD.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFileHelper.h">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectCell.h">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrid.h">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="CCell.h">
+      <Filter>C_FrameWork\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>C_FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="definedEnemy.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>CO_DynamicObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle.h">
+      <Filter>CO_StaticObjects\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="definedCandle.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>CO_StaticObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CStandardized.h">
+      <Filter>C_FrameWork\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>C_Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="cDefinedFilePath.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeSubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWeaponManager.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="HolyWaterSubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="DaggerSubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangSubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="definedSubWeapon.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnight.h">
+      <Filter>CO_DynamicObjects\BlackKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="definedBlackKnight.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>CO_StaticObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireBat.h">
+      <Filter>CO_DynamicObjects\VampireBat</Filter>
+    </ClInclude>
+    <ClInclude Include="definedVampireBat.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedStaticObject.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatchSubWeapon.h">
+      <Filter>C_Game\SimonBelmont\Weapons\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="StairManager.h">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="definedStair.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatingStair.h">
+      <Filter>CO_StaticObjects\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingStair.h">
+      <Filter>CO_DynamicObjects\MovingStair</Filter>
+    </ClInclude>
+    <ClInclude Include="definedMovingStair.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySceneKeyForwardAction.h">
+      <Filter>C_Game\SceneGame\SceneInput</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScenceKeyHandler.h">
+      <Filter>C_Game\SceneGame\SceneInput</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreater.h">
+      <Filter>C_Game\SceneGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>CO_DynamicObjects\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="definedGhost.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="HunchBack.h">
+      <Filter>CO_DynamicObjects\HunchBack</Filter>
+    </ClInclude>
+    <ClInclude Include="definedHunchBack.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteSkeleton.h">
+      <Filter>CO_DynamicObjects\WhiteSkeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>CO_DynamicObjects\WhiteSkeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven.h">
+      <Filter>CO_DynamicObjects\Raven</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BigHeartItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DaggerItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DiademItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleShotItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="HolyWaterItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibilityPotionItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBagItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBagPurpleItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBagRedItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBagWhiteItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MorningStarItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PorkChopItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RosaryItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallHeartItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatchItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="TripleShotItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibilityItemEffect.h">
+      <Filter>CO_StaticObjects\Items\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="RosaryItemEffect.h">
+      <Filter>CO_StaticObjects\Items\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="definedBrick.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>CO_DynamicObjects\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomBat.h">
+      <Filter>CO_DynamicObjects\PhantomBat</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>C_Game\SceneGame\SceneSound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>C_Game\SceneGame\SceneSound</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenObjectManager.h">
+      <Filter>CO_StaticObjects\HiddenObject</Filter>
+    </ClInclude>
+    <ClInclude Include="definedRaven.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedWhiteSkeleton.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedBone.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedZombie.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCrystalItem.h">
+      <Filter>CO_StaticObjects\Items\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DSutil.h">
+      <Filter>C_FrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>C_FrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="definedSound.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRevival.h">
+      <Filter>CO_DynamicObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackingEffect.h">
+      <Filter>C_Game\SimonBelmont\Weapons\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackingEffectManager.h">
+      <Filter>C_Game\SimonBelmont\Weapons\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="definedAttackingEffect.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CRandomManager.h">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="CRandomItem.h">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="CRandomGroup.h">
+      <Filter>C_FrameWork\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="definedRandom.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedPhantomBat.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedHiddenObject.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedSafeDelete.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="definedPortal.h">
+      <Filter>C_Game\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CastleVania.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

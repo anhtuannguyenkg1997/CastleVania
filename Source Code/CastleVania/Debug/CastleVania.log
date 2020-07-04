@@ -1,0 +1,405 @@
+﻿  AttackingEffect.cpp
+  AttackingEffectManager.cpp
+F:\CastleVania\CastleVania\AttackingEffectManager.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\AttackingEffectManager.cpp(124,20): warning C4018: '<': signed/unsigned mismatch
+  AxeItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  AxeSubWeapon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(91,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(91,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(103,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(103,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(117,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(117,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\AxeSubWeapon.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+  BigHeartItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  BlackKnight.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Bone.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\Bone.cpp(110,20): warning C4018: '<': signed/unsigned mismatch
+  BoomerangItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  BoomerangSubWeapon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(101,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(101,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(113,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(113,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(127,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(127,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\BoomerangSubWeapon.cpp(158,20): warning C4018: '<': signed/unsigned mismatch
+  Brick.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CAnimation.cpp
+F:\CastleVania\CastleVania\CAnimation.cpp(76,21): warning C4018: '>=': signed/unsigned mismatch
+  CCamera.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CCell.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CGame.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\CGame.cpp(179,47): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+F:\CastleVania\CastleVania\CGame.cpp(348,26): warning C4305: '=': truncation from '__int64' to 'float'
+F:\CastleVania\CastleVania\CGame.cpp(349,24): warning C4305: '=': truncation from '__int64' to 'float'
+F:\CastleVania\CastleVania\CGame.cpp(362,26): warning C4305: '=': truncation from '__int64' to 'float'
+F:\CastleVania\CastleVania\CGame.cpp(363,24): warning C4305: '=': truncation from '__int64' to 'float'
+  CGameObject.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\CGameObject.cpp(194,42): warning C4018: '>=': signed/unsigned mismatch
+  CGrid.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\CGrid.cpp(135,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\CGrid.cpp(150,22): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CGrid.cpp(204,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CGrid.cpp(269,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\CGrid.cpp(341,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  CObjectCell.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CRandomManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\CRandomManager.cpp(92,20): warning C4018: '<': signed/unsigned mismatch
+  CSprite.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CSprites.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Generating Code...
+  Compiling...
+  CTextures.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CTileMap.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\CTileMap.cpp(62,21): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CTileMap.cpp(65,22): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CTileMap.cpp(152,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\CTileMap.cpp(166,21): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CTileMap.cpp(170,25): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\CTileMap.cpp(174,12): warning C4244: 'initializing': conversion from 'UINT' to 'float', possible loss of data
+  Candle.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  CheatingStair.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ChestItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  DSutil.cpp
+  DaggerItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  DaggerSubWeapon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(96,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(96,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(109,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(109,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(127,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(127,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\DaggerSubWeapon.cpp(151,20): warning C4018: '<': signed/unsigned mismatch
+  DiademItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  DoubleShotItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Enemy.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  EnemyRevival.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\EnemyRevival.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
+  Ghost.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  HiddenObjectManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  HolyWaterItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  HolyWaterSubWeapon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(120,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(120,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(133,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(133,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(149,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(149,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\HolyWaterSubWeapon.cpp(193,20): warning C4018: '<': signed/unsigned mismatch
+  HunchBack.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  InvisibilityPotionItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Item.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ItemManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Generating Code...
+  Compiling...
+  LoadFileHelper.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\LoadFileHelper.cpp(57,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\LoadFileHelper.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+  MagicCrystalItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MoneyBagItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MoneyBagPurpleItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MoneyBagRedItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MoneyBagWhiteItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MorningStar.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MorningStarItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MovingStair.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ObjectCreater.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\ObjectCreater.cpp(22,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(23,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(51,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(52,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(67,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(68,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(69,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(70,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(72,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(73,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(86,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(87,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(88,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(89,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(103,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(104,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(105,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(106,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(117,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(118,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(119,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(120,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(121,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(122,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(123,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(137,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(138,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(139,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(140,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(141,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(154,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(155,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(156,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(157,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(159,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(160,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(183,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(184,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(185,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\CastleVania\CastleVania\ObjectCreater.cpp(186,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PhantomBat.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  PlayScenceKeyHandler.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  PlayScene.cpp
+F:\CastleVania\CastleVania\PlayScene.cpp(474,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayScene.cpp(482,20): warning C4018: '<': signed/unsigned mismatch
+  PlaySceneKeyForwardAction.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  PlayerManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\PlayerManager.cpp(74,21): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(83,21): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(262,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\CastleVania\CastleVania\PlayerManager.cpp(268,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\CastleVania\CastleVania\PlayerManager.cpp(273,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\CastleVania\CastleVania\PlayerManager.cpp(277,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\CastleVania\CastleVania\PlayerManager.cpp(403,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(411,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(420,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(432,20): warning C4018: '<': signed/unsigned mismatch
+F:\CastleVania\CastleVania\PlayerManager.cpp(440,20): warning C4018: '<': signed/unsigned mismatch
+  PorkChopItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Portal.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\Portal.cpp(9,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+F:\CastleVania\CastleVania\Portal.cpp(10,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Raven.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  RosaryItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SceneManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\SceneManager.cpp(89,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\SceneManager.cpp(90,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\SceneManager.cpp(109,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\SceneManager.cpp(110,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\CastleVania\CastleVania\SceneManager.cpp(208,33): warning C4804: '>': unsafe use of type 'bool' in operation
+  Generating Code...
+  Compiling...
+  Simon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SmallHeartItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Sound.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SoundManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Stair.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  StairManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+F:\CastleVania\CastleVania\StairManager.cpp(22,9): warning C4101: 'stair': unreferenced local variable
+F:\CastleVania\CastleVania\StairManager.cpp(230,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  StopWatchItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SubWeapon.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SubWeaponManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Torch.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  TripleShotItem.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  VampireBat.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  WhiteSkeleton.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Zombie.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+F:\CastleVania\CastleVania\cDefinedWindow.h(19,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42): message : see previous definition of 'DIRECTINPUT_VERSION'
+  main.cpp
+  Generating Code...
+  CastleVania.vcxproj -> F:\CastleVania\Debug\CastleVania.exe
