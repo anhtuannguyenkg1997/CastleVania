@@ -14,13 +14,16 @@
 
 
 ## Resources: </br>
-  &nbsp :diamonds: Sprites: https://www.spriters-resource.com/nes/cv/ </br>
-  &nbsp :diamonds: Maps: https://nesmaps.com/maps/Castlevania/Castlevania.html </br>
-  &nbsp :diamonds: Items Informations: https://strategywiki.org/wiki/Castlevania/Items </br>
-  &nbsp :diamonds: Enemies Informations: https://castlevania.fandom.com/wiki/Castlevania_Bestiary </br>
-  &nbsp :diamonds: Sounds :  </br>
-    &nbsp &nbsp &nbsp * Background Scenes: https://www.youtube.com/watch?v=BJFUCyR2KKk </br>
-    &nbsp &nbsp &nbsp * Effects: https://www.sounds-resource.com/nes/vania/sound/357/ </br>
-    &nbsp &nbsp &nbsp * Stage Clear: https://www.youtube.com/watch?v=YY4flDkvvf4 </br>
-    &nbsp &nbsp &nbsp * Boss Battle: https://www.youtube.com/watch?v=LFB0AoS_-NQ </br>
+<pre>
+  :diamonds: Sprites: https://www.spriters-resource.com/nes/cv/ </br>
+  :diamonds: Maps: https://nesmaps.com/maps/Castlevania/Castlevania.html </br>
+  :diamonds: Items Informations: https://strategywiki.org/wiki/Castlevania/Items </br>
+  :diamonds: Enemies Informations: https://castlevania.fandom.com/wiki/Castlevania_Bestiary </br>
+  :diamonds: Sounds :  </br>
+   * Background Scenes: https://www.youtube.com/watch?v=BJFUCyR2KKk </br>
+   * Effects: https://www.sounds-resource.com/nes/vania/sound/357/ </br>
+   * Stage Clear: https://www.youtube.com/watch?v=YY4flDkvvf4 </br>
+   * Boss Battle: https://www.youtube.com/watch?v=LFB0AoS_-NQ </br>
+</pre>
+
 
