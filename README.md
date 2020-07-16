@@ -3,15 +3,15 @@
 
 
 
-References:
+##References:
   Framework: https://github.com/dungdna2000/gamedev-intro-tutorials
 
-Tools:
+##Tools:
   Map editor: https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects
   Get coordinates: http://www.spritecow.com/
   Increase volume: https://audiotrimmer.com/volume-booster/
 
-Resources:
+##Resources:
   Sprites: https://www.spriters-resource.com/nes/cv/
   Maps: https://nesmaps.com/maps/Castlevania/Castlevania.html
   Items Informations: https://strategywiki.org/wiki/Castlevania/Items
