@@ -9,23 +9,23 @@
 
 ## Tools:</br>
 <pre>
-  💻 Map editor: https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects </br>
-  💻 Get coordinates: http://www.spritecow.com/ </br>
-  💻 Increase volume: https://audiotrimmer.com/volume-booster/ 
+  💻 Map editor: <a href="https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects">https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects</a> </br>
+  💻 Get coordinates: <a href="http://www.spritecow.com/">http://www.spritecow.com/</a> </br>
+  💻 Increase volume: <a href="https://audiotrimmer.com/volume-booster/">href="https://audiotrimmer.com/volume-booster/</a> 
 </pre>
 </br></br>
 
 ## Resources: </br>
 <pre>
-  ✨ Sprites: https://www.spriters-resource.com/nes/cv/ </br>
-  📌 Maps: https://nesmaps.com/maps/Castlevania/Castlevania.html </br>
-  💎 Items Informations: https://strategywiki.org/wiki/Castlevania/Items </br>
-  ⚔️ Enemies Informations: https://castlevania.fandom.com/wiki/Castlevania_Bestiary </br>
+  ✨ Sprites: <a href="https://www.spriters-resource.com/nes/cv/">https://www.spriters-resource.com/nes/cv/</a> </br>
+  📌 Maps: <a href="https://nesmaps.com/maps/Castlevania/Castlevania.html">https://nesmaps.com/maps/Castlevania/Castlevania.html</a> </br>
+  💎 Items Informations: <a href="https://strategywiki.org/wiki/Castlevania/Items">https://strategywiki.org/wiki/Castlevania/Items</a> </br>
+  ⚔️ Enemies Informations: <a href="https://castlevania.fandom.com/wiki/Castlevania_Bestiary">https://castlevania.fandom.com/wiki/Castlevania_Bestiary</a> </br>
   🎼 Sounds :  </br>
-   🎧 Background Scenes: https://www.youtube.com/watch?v=BJFUCyR2KKk </br>
-   🎧 Effects: https://www.sounds-resource.com/nes/vania/sound/357/ </br>
-   🎧 Stage Clear: https://www.youtube.com/watch?v=YY4flDkvvf4 </br>
-   🎧 Boss Battle: https://www.youtube.com/watch?v=LFB0AoS_-NQ </br>
+   🎧 Background Scenes: <a href="https://www.youtube.com/watch?v=BJFUCyR2KKk">https://www.youtube.com/watch?v=BJFUCyR2KKk</a> </br>
+   🎧 Effects: <a href="https://www.sounds-resource.com/nes/vania/sound/357/">https://www.sounds-resource.com/nes/vania/sound/357/</a>  </br>
+   🎧 Stage Clear: <a href="https://www.youtube.com/watch?v=YY4flDkvvf4">https://www.youtube.com/watch?v=YY4flDkvvf4</a> </br>
+   🎧 Boss Battle: <a href="https://www.youtube.com/watch?v=LFB0AoS_-NQ">https://www.youtube.com/watch?v=LFB0AoS_-NQ</a> </br>
 </pre>
 
 
