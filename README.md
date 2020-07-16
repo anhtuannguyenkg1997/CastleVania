@@ -4,14 +4,14 @@
 
 
 ## References:</br>
-  ✍ Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br>
+  ✔️ Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
 
 
 ## Tools:</br>
 <pre>
   💻 Map editor: https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects </br>
   💻 Get coordinates: http://www.spritecow.com/ </br>
-  💻 Increase volume: https://audiotrimmer.com/volume-booster/ </br>
+  💻 Increase volume: https://audiotrimmer.com/volume-booster/ </br></br></br>
 </pre>
 
 ## Resources: </br>
