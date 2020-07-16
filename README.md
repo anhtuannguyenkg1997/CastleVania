@@ -4,9 +4,9 @@
 ## Stages:</br>
 Stage 1             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing)  |  ![](https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing)
-</br></br>
+![alt text](https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing) |  ![](https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing)
 
+</br></br>
 ## References:</br>
   ✔️ Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
 
