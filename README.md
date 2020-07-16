@@ -11,8 +11,9 @@
 <pre>
   💻 Map editor: https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects </br>
   💻 Get coordinates: http://www.spritecow.com/ </br>
-  💻 Increase volume: https://audiotrimmer.com/volume-booster/ </br></br></br>
+  💻 Increase volume: https://audiotrimmer.com/volume-booster/ 
 </pre>
+</br></br></br>
 
 ## Resources: </br>
 <pre>
