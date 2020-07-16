@@ -2,7 +2,7 @@
 
 
 ## Stages:</br>
-<img src="https://drive.google.com/uc?export=view&id=1WWDb3oXTGrxu_I8hLBrnKQca-0rN7zpX" width="1036" height="1134" />
+<img src="https://drive.google.com/uc?export=view&id=1wUVvM_TibOceDr12bnA2jEs7WP2oTSCc" width="518" height="567" />
 
 
 </br>
