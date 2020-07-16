@@ -3,7 +3,7 @@
 
 ## Stages:</br>
 <img src="https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing" width="256" height="192" />
-
+![Image](https://drive.google.com/file/d/1f6ZqPE1B7Qqc1iYM7a-F6DY3twHBnSMV/view?usp=sharing)
 </br></br>
 
 
