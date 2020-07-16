@@ -13,7 +13,7 @@
   💻 Get coordinates: http://www.spritecow.com/ </br>
   💻 Increase volume: https://audiotrimmer.com/volume-booster/ 
 </pre>
-</br></br></br>
+</br></br>
 
 ## Resources: </br>
 <pre>
