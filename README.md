@@ -6,13 +6,13 @@
 ## References:</br>
   &nbspFramework: https://github.com/dungdna2000/gamedev-intro-tutorials </br>
 
-</br>
+
 ## Tools:</br>
   &nbsp :diamonds: Map editor: https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o#add-objects </br>
   &nbsp :diamonds: Get coordinates: http://www.spritecow.com/ </br>
   &nbsp :diamonds: Increase volume: https://audiotrimmer.com/volume-booster/ </br>
 
-</br>
+
 ## Resources: </br>
   &nbsp :diamonds: Sprites: https://www.spriters-resource.com/nes/cv/ </br>
   &nbsp :diamonds: Maps: https://nesmaps.com/maps/Castlevania/Castlevania.html </br>
