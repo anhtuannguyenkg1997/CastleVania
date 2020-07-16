@@ -11,7 +11,7 @@
 <pre>
   💻 Map editor: <a href="https://github.com/uiters/MapEditor?fbclid=IwAR3mqEyLmY-5Xceui-UWqfLK0uFiyWff64v-485sefQ1bCjN8Xp3UOaJ38o">https://github.com/uiters/MapEditor</a> </br>
   💻 Get coordinates: <a href="http://www.spritecow.com/">http://www.spritecow.com/</a> </br>
-  💻 Increase volume: <a href="https://audiotrimmer.com/volume-booster/">href="https://audiotrimmer.com/volume-booster/</a> 
+  💻 Increase volume: <a href="https://audiotrimmer.com/volume-booster/">https://audiotrimmer.com/volume-booster/</a> 
 </pre>
 </br></br>
 
