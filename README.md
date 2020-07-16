@@ -3,14 +3,20 @@
 
 ## Stages:</br>
 <img src="https://drive.google.com/uc?export=view&id=1wUVvM_TibOceDr12bnA2jEs7WP2oTSCc" width="518" height="567" />
-
-
-</br>
-
-
 </br></br>
 
-
+## Features:</br>
+  ✔️ Subweapons For Simon </br>
+  ✔️ Player Manager </br>
+  ✔️ Hidden Items </br>
+  ✔️ Random Items </br>
+  ✔️ Sounds </br>
+  ✔️ Stage Clear 
+  </br></br>
+  
+## Cheat keys:</br>
+  
+  
 ## References:</br>
   ✔️ Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
 
