@@ -1,4 +1,4 @@
-# Game Castle Vania - DirectX9 API
+# Game Castle Vania (1986) - Using DirectX9 API
 
 
 ## Stages:</br>
@@ -6,19 +6,19 @@
 </br></br>
 
 ## Features:</br>
-  ✔️ Subweapons For Simon </br>
+  ✔️ All Items, All Subweapons, All Effects  </br>
   ✔️ Player Manager </br>
-  ✔️ Hidden Items </br>
-  ✔️ Random Items </br>
+  ✔️ Show Hidden Items </br>
+  ✔️ Handle Random Items </br>
   ✔️ Sounds </br>
-  ✔️ Stage Clear 
+  ✔️ Stage Clear
   </br></br>
   
 ## Cheat keys:</br>
   
   
 ## References:</br>
-  ✔️ Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
+  🌟 Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
 
 
 ## Tools:</br>
