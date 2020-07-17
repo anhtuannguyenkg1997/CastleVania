@@ -15,7 +15,20 @@
   </br></br>
   
 ## Cheat keys:</br>
-  
+  :key: **Key B** : Using Boomerang Subweapon
+  :key: **Key W** : Using Stop Watch Subweapon
+  :key: **Key D** : Using Dagger Subweapon
+  :key: **Key X** : Using AXE Subweapon
+  :key: **Key H** : Using HolyWater Subweapon
+  :key: **Key T** : Using Tripple Shot
+  :key: **Key Y** : Using Double Shot
+  :key: **Key C** : Get More 20 SmallHeart
+  :key: **Key P** : Full HP
+  :key: **Key L** : Get More 3 Lifes
+  :key: **Key 1** : Set Morning Star Level 1
+  :key: **Key 2** : Set Morning Star Level 2
+  :key: **Key 3** : Set Morning Star Level 3
+  </br></br>
   
 ## References:</br>
   🌟 Framework: <a href="https://github.com/dungdna2000/gamedev-intro-tutorials">https://github.com/dungdna2000/gamedev-intro-tutorials</a> </br></br></br>
