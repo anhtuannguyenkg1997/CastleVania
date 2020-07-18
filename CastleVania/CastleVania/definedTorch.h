@@ -1,8 +1,0 @@
-#pragma once
-//OBJECT TYPE ID
-#define OBJECT_TYPE_TORCH	4
-
-
-//	WIDTH & HEIGHT
-#define TORCH_WIDTH			32
-#define TORCH_HEIGHT		64
