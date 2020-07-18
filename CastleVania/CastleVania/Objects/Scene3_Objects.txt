@@ -1,0 +1,228 @@
+[TEXTURES]
+#id	#path	#R	#G	#B
+8	textures\BrickType2.png	NULL	NULL	NULL
+6	textures\BlackKnight.png	NULL	NULL	NULL
+7	textures\Candle.png	NULL	NULL	NULL
+10	textures\Vampirebat.png	NULL	NULL	NULL
+11	textures\StairType2.png	NULL	NULL	NULL
+12	textures\MovingStair.png	NULL	NULL	NULL
+23	textures\ChunkFromBrokenBlockB.png	NULL	NULL	NULL
+
+
+
+
+
+[SPRITES]
+# id	#left	#top	#right	#bottom	#texture_id
+#==========CANDLE==========
+candle0	0	0	16	32	7
+candle1	19	0	35	32	7
+
+#==========BLACK KNIGHT==========
+blackKnightWalking0	0	0	32	64	6
+blackKnightWalking1	34	0	66	64	6
+blackKnightWalking2	68	0	100	64	6
+
+#==========BRICK TYPE 2 ==========
+brick1	0	0	32	32	8
+
+#==========VAMPIRE BAT ==========
+vampirebatIdle	4	0	28	28	10
+vampirebatFly0	35	0	67	32	10
+vampirebatFly1	70	8	102	28	10
+vampirebatFly2	105	4	137	32	10
+
+#========== STAIR TYPE 2 ==========
+stairLeftRight	0	0	16	16	11
+
+#==========MOVING STAIR==========
+movingStair	0	0	64	16	12
+
+#==========BROKEN BRICK EFFECT ==========
+brokenBlock0	0	0	115	135	23
+brokenBlock1	127	0	242	135	23
+brokenBlock2	252	0	367	135	23
+brokenBlock3	380	0	495	135	23
+brokenBlock4	507	0	622	135	23
+brokenBlock5	635	0	750	135	23
+
+
+
+
+
+
+[ANIMATIONS]
+# ani_id	#sprite1_id	#time1	#sprite2_id	#time2	...
+# ========== Candle=========
+candleAni	candle0	100	candle1	100
+
+# ========== Solider=========
+blackKnightAni	blackKnightWalking0	150	blackKnightWalking1	150	blackKnightWalking2	150
+
+# ========== BRICK=========
+brick1Ani	brick1	100
+
+# ========== VAMPIRE BAT=========
+vampirebatIdleani	vampirebatIdle	100
+vampirebatFlyAni	vampirebatFly0	150	vampirebatFly1	150	vampirebatFly2	150
+
+# ========== STAIR=========
+stairLeftRightAni	stairLeftRight	100
+
+# ========== MOVING STAIR=========
+movingStairAni	movingStair	100
+
+# ========== BROKEN BRICK EFFECT=========
+brokenBlockAni	brokenBlock0	50	brokenBlock1	50	brokenBlock2	50	brokenBlock3	50	brokenBlock4	50	brokenBlock5	50
+
+
+
+
+[ANIMATION_SETS]
+# id	ani1	ani2	ani3	....
+#========== BLACK KNIGHT ==========
+6	blackKnightAni	disapearAni
+
+#========== CANDLE ==========
+7	candleAni	disapearSmallAni
+
+#========== BRICK TYPE 2 ==========
+8	brick1Ani	brokenBlockAni
+
+#========== VAMPIRE BAT==========
+10	vampirebatFlyAni	disapearSmallAni	vampirebatIdleani
+
+#========== STAIR TYPE 2 ==========
+11	stairLeftRightAni
+
+#========== MOVING STAIR==========
+12	movingStairAni
+
+
+
+
+
+
+
+[OBJECTS]
+#========== MOVING STAIR ==========
+# type	x	y	ani_set_id	item	typeObject	colCell	rowCell	limitLeft	limitRight
+12	75.0	127.0	12	-1	1	0	0	65	124
+
+
+# ==========HIDDEN OBJECT ==========
+#type	x	y	item	isMoving
+#isMoving =0 (Not Moving Item) 
+22	704	127	208	0
+
+
+
+# ========== BRICK TYPE 2 ==========
+# type	x	y	ani_set_id	item	typeObject	colCell	rowCell
+# typeObject = 0 (Static Object) || typeObject = 2 (Hidden Brick) || typeObject = 2 (Slim Brick)
+# item = 1 (Brick to Active Hidden Item) || item = 0 (Broken brick)
+8	929.0	190.0	8	-1	0	3	1
+8	962.0	317.0	8	-1	0	3	1
+8	962.0	285.0	8	-1	0	3	1
+8	962.0	253.0	8	-1	0	3	1
+8	962.0	221.0	8	-1	0	3	1
+8	962.0	189.0	8	-1	0	3	1
+8	962.0	157.0	8	-1	0	3	0
+8	962.0	125.0	8	-1	0	3	0
+8	962.0	93.0	8	-1	0	3	0
+8	962.0	61.0	8	-1	0	3	0
+8	962.0	29.0	8	-1	0	3	0
+8	962.0	0.0	8	-1	0	3	0
+8	994.0	317.0	8	-1	0	3	1
+8	994.0	285.0	8	-1	0	3	1
+8	994.0	253.0	8	-1	0	3	1
+8	994.0	221.0	8	-1	0	3	1
+8	994.0	189.0	8	-1	0	3	1
+8	994.0	157.0	8	-1	0	3	0
+8	994.0	125.0	8	-1	0	3	0
+8	994.0	93.0	8	-1	0	3	0
+8	994.0	61.0	8	-1	0	3	0
+8	994.0	29.0	8	-1	0	3	0
+8	994.0	0.0	8	-1	0	3	0
+8	864.0	129.0	8	-1	0	3	0
+8	832.0	129.0	8	-1	0	3	0
+8	800.0	129.0	8	-1	0	3	0
+8	768.0	129.0	8	-1	0	3	0
+8	736.0	129.0	8	-1	0	2	0
+8	704.0	129.0	8	0	0	2	0
+8	704.0	161.0	8	-1	0	2	0
+8	704.0	193.0	8	-1	0	2	1
+8	704.0	225.0	8	-1	0	2	1
+8	704.0	257.0	8	-1	0	2	1
+8	672.0	257.0	8	-1	0	2	1
+8	640.0	257.0	8	-1	0	2	1
+8	608.0	192.0	8	-1	0	2	1
+8	576.0	192.0	8	-1	0	2	1
+8	544.0	128.0	8	-1	0	2	0
+8	512.0	128.0	8	-1	0	2	0
+8	480.0	128.0	8	-1	0	1	0
+8	448.0	128.0	8	-1	0	1	0
+8	416.0	128.0	8	-1	0	1	0
+8	384.0	128.0	8	-1	0	1	0
+8	288.0	128.0	8	-1	0	1	0
+8	256.0	128.0	8	-1	0	1	0
+8	224.0	128.0	8	-1	0	0	0
+8	192.0	128.0	8	-1	0	0	0
+8	160.0	192.0	8	-1	0	0	1
+8	128.0	192.0	8	-1	0	0	1
+8	33.0	128.0	8	-1	0	0	0
+
+#ENEMY BRICK
+8	702.0	226.0	8	-1	5	2	1
+8	609.0	195.0	8	-1	5	2	1
+
+8	317.0	102.0	8	-1	5	1	0
+8	160.0	90.0	8	-1	5	0	0
+
+
+8	193.0	130.0	8	-1	5	0	0
+8	32.0	130.0	8	-1	5	0	0
+
+#========== STAIR TYPE 2 ==========
+# type	x	y	ani_set_id	objectType	colCell	rowCell	stairDirection	breakPoint
+# stairDirection = 0 (LEFT - RIGHT) || stairDirection = 1 (RIGHT - LEFT)
+# breakPoint = -1 (Bottom Stair) || breakPoint = 1 (Top Stair) || breakPoint = 0 (Step)
+11	768.0	337.0	11	0	3	1	0	-1
+11	768.0	334.0	11	0	3	1	0	0
+11	784.0	318.0	11	0	3	1	0	0
+11	800.0	302.0	11	0	3	1	0	0
+11	816.0	286.0	11	0	3	1	0	0
+11	832.0	270.0	11	0	3	1	0	0
+11	848.0	254.0	11	0	3	1	0	0
+11	864.0	238.0	11	0	3	1	0	0
+11	880.0	222.0	11	0	3	1	0	0
+11	912.0	190.0	11	0	3	0	0	0
+11	896.0	206.0	11	0	3	1	0	0
+11	913.0	176.0	11	0	3	0	0	1
+
+
+#========== CANDLE ==========
+# type	x	y	ani_set_id	item	objectType	colCell	rowCell
+7	920.0	6.0	7	201	0	3	0
+7	792.0	6.0	7	201	0	3	0
+7	664.0	6.0	7	201	0	2	0
+7	536.0	6.0	7	201	0	2	0
+7	409.0	6.0	7	201	0	1	0
+7	282.0	6.0	7	201	0	1	0
+7	155.0	6.0	7	201	0	0	0
+
+
+#========== VAMPIRE BAT ==========
+# type	x	y	ani_set_id	item	objectType	colCell	rowCell	SimonXtoActive	simonYtoActive
+10	595.0	18.0	10	1000	1	2	0	770	84
+
+
+#========== BLACKKNIGHT ==========
+# type	x	y	ani_set_id	item	objectType	colCell	rowCell
+6	640.0	190.0	6	1000	1	2	0
+6	246.0	63.0	6	1000	1	0	0
+
+
+#========== PORTAL ==========
+# type	left	top	ani_set_id	right	bottom	scene_id	colCell	rowCell
+100	27	54	0	30	128	4	0	0
