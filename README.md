@@ -22,7 +22,7 @@
   :key: **Key H** : Using HolyWater Subweapon </br>
   :key: **Key T** : Using Tripple Shot </br>
   :key: **Key Y** : Using Double Shot </br>
-  :key: **Key C** : Get More 20 SmallHeart </br>
+  :key: **Key C** : Get More 20 SmallHearts </br>
   :key: **Key P** : Full HP </br>
   :key: **Key L** : Get More 3 Lifes </br>
   :key: **Key 1** : Set Morning Star Level 1 </br>
