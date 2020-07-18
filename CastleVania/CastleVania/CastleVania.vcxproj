@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F9FBF478-E90D-45CE-9699-A614438A6F2C}</ProjectGuid>
+    <RootNamespace>CastleVania</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dxerr.lib;dinput8.lib;dsound.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AttackingEffect.cpp" />
+    <ClCompile Include="AttackingEffectManager.cpp" />
+    <ClCompile Include="AxeItem.cpp" />
+    <ClCompile Include="AxeSubWeapon.cpp" />
+    <ClCompile Include="BigHeartItem.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="BoomerangItem.cpp" />
+    <ClCompile Include="BoomerangSubWeapon.cpp" />
+    <ClCompile Include="Candle.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CCell.cpp" />
+    <ClCompile Include="CGrid.cpp" />
+    <ClCompile Include="CheatingStair.cpp" />
+    <ClCompile Include="ChestItem.cpp" />
+    <ClCompile Include="CRandomGroup.cpp" />
+    <ClCompile Include="CRandomItem.cpp" />
+    <ClCompile Include="CRandomManager.cpp" />
+    <ClCompile Include="CStandardized.cpp" />
+    <ClCompile Include="DaggerItem.cpp" />
+    <ClCompile Include="DaggerSubWeapon.cpp" />
+    <ClCompile Include="DiademItem.cpp" />
+    <ClCompile Include="DoubleShotItem.cpp" />
+    <ClCompile Include="DSutil.cpp" />
+    <ClCompile Include="dxutil.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyRevival.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="HiddenObjectManager.cpp" />
+    <ClCompile Include="HolyWaterItem.cpp" />
+    <ClCompile Include="HolyWaterSubWeapon.cpp" />
+    <ClCompile Include="HunchBack.cpp" />
+    <ClCompile Include="InvisibilityItemEffect.cpp" />
+    <ClCompile Include="InvisibilityPotionItem.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="LoadFileHelper.cpp" />
+    <ClCompile Include="CObjectCell.cpp" />
+    <ClCompile Include="MagicCrystalItem.cpp" />
+    <ClCompile Include="MoneyBagItem.cpp" />
+    <ClCompile Include="MoneyBagPurpleItem.cpp" />
+    <ClCompile Include="MoneyBagRedItem.cpp" />
+    <ClCompile Include="MoneyBagWhiteItem.cpp" />
+    <ClCompile Include="MorningStarItem.cpp" />
+    <ClCompile Include="MovingStair.cpp" />
+    <ClCompile Include="ObjectCreater.cpp" />
+    <ClCompile Include="PhantomBat.cpp" />
+    <ClCompile Include="PlayerManager.cpp" />
+    <ClCompile Include="PlaySceneKeyForwardAction.cpp" />
+    <ClCompile Include="PorkChopItem.cpp" />
+    <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="Raven.cpp" />
+    <ClCompile Include="RosaryItem.cpp" />
+    <ClCompile Include="RosaryItemEffect.cpp" />
+    <ClCompile Include="SmallHeartItem.cpp" />
+    <ClCompile Include="BlackKnight.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="Stair.cpp" />
+    <ClCompile Include="StairManager.cpp" />
+    <ClCompile Include="StopWatchItem.cpp" />
+    <ClCompile Include="StopWatchSubWeapon.cpp" />
+    <ClCompile Include="SubWeapon.cpp" />
+    <ClCompile Include="SubWeaponManager.cpp" />
+    <ClCompile Include="Torch.cpp" />
+    <ClCompile Include="CAnimation.cpp" />
+    <ClCompile Include="CAnimationFrame.cpp" />
+    <ClCompile Include="CAnimations.cpp" />
+    <ClCompile Include="CDebug.cpp" />
+    <ClCompile Include="CGame.cpp" />
+    <ClCompile Include="CGameObject.cpp" />
+    <ClCompile Include="CKeyEventHandler.cpp" />
+    <ClCompile Include="PlayScenceKeyHandler.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="CScenceKeyHandler.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CSprite.cpp" />
+    <ClCompile Include="CSprites.cpp" />
+    <ClCompile Include="CTextures.cpp" />
+    <ClCompile Include="CTileMap.cpp" />
+    <ClCompile Include="CUtils.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MorningStar.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Simon.cpp" />
+    <ClCompile Include="TripleShotItem.cpp" />
+    <ClCompile Include="VampireBat.cpp" />
+    <ClCompile Include="WhiteSkeleton.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttackingEffect.h" />
+    <ClInclude Include="AttackingEffectManager.h" />
+    <ClInclude Include="AxeItem.h" />
+    <ClInclude Include="AxeSubWeapon.h" />
+    <ClInclude Include="BigHeartItem.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="BoomerangItem.h" />
+    <ClInclude Include="BoomerangSubWeapon.h" />
+    <ClInclude Include="Candle.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="cDefinedFilePath.h" />
+    <ClInclude Include="cDefinedGame.h" />
+    <ClInclude Include="cDefinedReadFile.h" />
+    <ClInclude Include="cDefinedWindow.h" />
+    <ClInclude Include="CCell.h" />
+    <ClInclude Include="CGrid.h" />
+    <ClInclude Include="CheatingStair.h" />
+    <ClInclude Include="ChestItem.h" />
+    <ClInclude Include="CRandomGroup.h" />
+    <ClInclude Include="CRandomItem.h" />
+    <ClInclude Include="CRandomManager.h" />
+    <ClInclude Include="CStandardized.h" />
+    <ClInclude Include="DaggerItem.h" />
+    <ClInclude Include="DaggerSubWeapon.h" />
+    <ClInclude Include="definedAttackingEffect.h" />
+    <ClInclude Include="definedBone.h" />
+    <ClInclude Include="definedCandle.h" />
+    <ClInclude Include="definedEnemy.h" />
+    <ClInclude Include="definedGhost.h" />
+    <ClInclude Include="definedHiddenObject.h" />
+    <ClInclude Include="definedHUD.h" />
+    <ClInclude Include="definedBlackKnight.h" />
+    <ClInclude Include="definedHunchBack.h" />
+    <ClInclude Include="definedMovingStair.h" />
+    <ClInclude Include="definedPhantomBat.h" />
+    <ClInclude Include="definedPortal.h" />
+    <ClInclude Include="definedRandom.h" />
+    <ClInclude Include="definedRaven.h" />
+    <ClInclude Include="definedSafeDelete.h" />
+    <ClInclude Include="definedSound.h" />
+    <ClInclude Include="definedStair.h" />
+    <ClInclude Include="definedStaticObject.h" />
+    <ClInclude Include="definedSubWeapon.h" />
+    <ClInclude Include="definedVampireBat.h" />
+    <ClInclude Include="definedWhiteSkeleton.h" />
+    <ClInclude Include="definedZombie.h" />
+    <ClInclude Include="DiademItem.h" />
+    <ClInclude Include="DoubleShotItem.h" />
+    <ClInclude Include="DSutil.h" />
+    <ClInclude Include="dxutil.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyRevival.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="HiddenObjectManager.h" />
+    <ClInclude Include="HolyWaterItem.h" />
+    <ClInclude Include="HolyWaterSubWeapon.h" />
+    <ClInclude Include="HunchBack.h" />
+    <ClInclude Include="InvisibilityItemEffect.h" />
+    <ClInclude Include="InvisibilityPotionItem.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="LoadFileHelper.h" />
+    <ClInclude Include="CObjectCell.h" />
+    <ClInclude Include="MagicCrystalItem.h" />
+    <ClInclude Include="MoneyBagItem.h" />
+    <ClInclude Include="MoneyBagPurpleItem.h" />
+    <ClInclude Include="MoneyBagRedItem.h" />
+    <ClInclude Include="MoneyBagWhiteItem.h" />
+    <ClInclude Include="MorningStarItem.h" />
+    <ClInclude Include="MovingStair.h" />
+    <ClInclude Include="ObjectCreater.h" />
+    <ClInclude Include="PhantomBat.h" />
+    <ClInclude Include="PlayerManager.h" />
+    <ClInclude Include="PlaySceneKeyForwardAction.h" />
+    <ClInclude Include="PorkChopItem.h" />
+    <ClInclude Include="Portal.h" />
+    <ClInclude Include="Raven.h" />
+    <ClInclude Include="RosaryItem.h" />
+    <ClInclude Include="RosaryItemEffect.h" />
+    <ClInclude Include="SmallHeartItem.h" />
+    <ClInclude Include="BlackKnight.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Stair.h" />
+    <ClInclude Include="StairManager.h" />
+    <ClInclude Include="StopWatchItem.h" />
+    <ClInclude Include="StopWatchSubWeapon.h" />
+    <ClInclude Include="SubWeapon.h" />
+    <ClInclude Include="SubWeaponManager.h" />
+    <ClInclude Include="Torch.h" />
+    <ClInclude Include="CAnimation.h" />
+    <ClInclude Include="CAnimationFrame.h" />
+    <ClInclude Include="CAnimations.h" />
+    <ClInclude Include="CDebug.h" />
+    <ClInclude Include="CGame.h" />
+    <ClInclude Include="CGameObject.h" />
+    <ClInclude Include="CKeyEventHandler.h" />
+    <ClInclude Include="PlayScenceKeyHandler.h" />
+    <ClInclude Include="PlayScene.h" />
+    <ClInclude Include="CScenceKeyHandler.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CSprite.h" />
+    <ClInclude Include="CSprites.h" />
+    <ClInclude Include="CTextures.h" />
+    <ClInclude Include="CTileMap.h" />
+    <ClInclude Include="CUtils.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="definedTorch.h" />
+    <ClInclude Include="definedBrick.h" />
+    <ClInclude Include="definedItems.h" />
+    <ClInclude Include="definedMorningStar.h" />
+    <ClInclude Include="definedSimon.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="MorningStar.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Simon.h" />
+    <ClInclude Include="TripleShotItem.h" />
+    <ClInclude Include="VampireBat.h" />
+    <ClInclude Include="WhiteSkeleton.h" />
+    <ClInclude Include="Zombie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CastleVania.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
